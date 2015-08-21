@@ -58,6 +58,7 @@ function SpiritLevelProcessor()
          var ay=event.accelerationIncludingGravity.y;
           var az=event.accelerationIncludingGravity.z;
     }
+    //Brian testing github.
 
     function movingAverage(buffer, newValue)
     {
