@@ -54,9 +54,9 @@ function SpiritLevelProcessor()
     function handleMotion(event)
     {
         // This function handles the new incoming values from the accelerometer
-        var ax=event.accelerationIncludingGravity.x
-         var ay=event.accelerationIncludingGravity.y
-          var az=event.accelerationIncludingGravity.z
+        var ax=event.accelerationIncludingGravity.x;
+         var ay=event.accelerationIncludingGravity.y;
+          var az=event.accelerationIncludingGravity.z;
     }
 
     function movingAverage(buffer, newValue)
